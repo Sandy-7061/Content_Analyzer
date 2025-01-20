@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#282828"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/curved_background"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="Back" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Analysis and Suggestion"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/copyButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/copy"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="Copy" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/card_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <!-- Analysis Result Section -->
+        <TextView
+            android:id="@+id/analysisResult"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/textview_background"
+            android:text="Analysis result will appear here"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:scrollbars="vertical"
+            android:gravity="start" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
