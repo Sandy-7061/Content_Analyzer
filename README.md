@@ -37,12 +37,6 @@ The Content Analyzer App addresses the challenge of extracting and analyzing tex
    - Click on `Build > Rebuild Project` in Android Studio to ensure all dependencies are resolved.
    - Deploy the app to an Android device or emulator with file access capabilities.
 
-6. **Follow the Screenshots and Setup Guide:**
-   - **Step 1:** Launch the app and click on the "Pick File" button. ![Pick File Screenshot](https://example.com/pick-file.png)
-   - **Step 2:** Select a PDF or image file from your device. Make sure it contains text. ![File Selection Screenshot](https://example.com/file-selection.png)
-   - **Step 3:** Wait for the text to be analyzed. Enjoy smooth animations during processing. ![Processing Screenshot](https://example.com/processing.png)
-   - **Step 4:** Review the results in Markdown format. Copy them using the provided button. ![Results Screenshot](https://example.com/results.png)
-
 ---
 
 ## Approach
