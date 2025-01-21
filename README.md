@@ -60,7 +60,11 @@ The Content Analyzer App addresses the challenge of extracting and analyzing tex
    - Results are displayed in an easy-to-read, mobile-optimized Markdown format.
      
 5. **Video**
-   - https://github.com/user-attachments/assets/6023446b-e2c0-44dc-95a9-16e0c794ddd6
+   - 
+
+https://github.com/user-attachments/assets/2e67f29b-6dfc-4200-9df5-567af17eb21a
+
+
 ---
 
 ## Download the App
