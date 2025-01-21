@@ -1,7 +1,5 @@
 
 
-https://github.com/user-attachments/assets/6023446b-e2c0-44dc-95a9-16e0c794ddd6
-
 # Content Analyzer App
 
 ## Overview
@@ -60,7 +58,9 @@ The Content Analyzer App addresses the challenge of extracting and analyzing tex
 4. **User Experience:**
    - Interactive Lottie animations provide visual feedback during lengthy processes.
    - Results are displayed in an easy-to-read, mobile-optimized Markdown format.
-
+     
+5. **Video**
+   - https://github.com/user-attachments/assets/6023446b-e2c0-44dc-95a9-16e0c794ddd6
 ---
 
 ## Download the App
