@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/6023446b-e2c0-44dc-95a9-16e0c794ddd6
+
 # Content Analyzer App
 
 ## Overview
